@@ -1,0 +1,301 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.nav-pos {
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+.navbar-custom-property {
+  background-color: #26096b;
+  padding: 5px;
+}
+.link-custom-property ul li a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 20px;
+  height: 100%;
+}
+.link-custom-property ul li a:hover {
+  border-bottom: 2px solid white;
+}
+.img-logo {
+  width: 300px;
+}
+
+.header-1 {
+  background: #114c6f;
+}
+.container-main {
+  margin-top: -10px;
+  height: 800px;
+  background-image: url(./resources/background.jpg);
+  background-size: cover;
+}
+
+.container-main div {
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+.info-container {
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-container section button {
+  width: 250px;
+  font-family: sans-serif;
+  margin: 10px;
+  margin-top: 30px;
+}
+.info-container h4:first-child {
+  color: chocolate;
+  font-weight: 600;
+}
+.lawywer-section {
+  background-color: azure;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.lawywer-section h3 {
+  font-weight: 800;
+  color: #1e0952;
+}
+.about-us hr {
+  display: block;
+  width: 100px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-top: 4px solid rgb(1, 4, 12);
+}
+.about-us h2 {
+  color: #1e0952;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/* .our-service{
+    background-image: url(./resources/pic1.jpg);
+    background-size: cover;
+} */
+
+.services {
+  margin-top: -80px;
+  width: 100%;
+  padding: 100px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.service {
+  max-width: 400px;
+  max-width: 400px;
+  padding: 30px;
+  margin: 50px;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #ffffff;
+}
+
+.service img {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.service h3 {
+  color: purple;
+  font-weight: 900;
+}
+.service p {
+  color: rgb(92, 84, 84);
+  font-weight: 700;
+}
+.write-about-us {
+  background-image: url(./resources/pic1.jpg);
+  background-size: cover;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.form-custom {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.form-custom input {
+  height: 60px;
+  margin: 10px;
+  border: 3px solid rgb(23, 53, 136);
+  font-size: large;
+  color: #26096b;
+}
+.form-custom textarea {
+  margin: 10px;
+  border: 3px solid rgb(23, 53, 136);
+  font-size: large;
+  color: #26096b;
+}
+.form-custom button {
+  margin: 10px;
+  width: 100%;
+  font-size: 24px;
+  height: 60px;
+}
+.form-custom h3 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.write-about-us-dark {
+  background-color: rgba(0, 0, 0, 0.603);
+  width: 100%;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.custom-footer {
+  margin: -30px;
+}
+
+.about-Section
+{
+  height: 800px;
+  background-image: url(./resources/about.jpg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.about-Section div{
+  height: 300px;
+  width: 600px;
+  background-color: #ffffff;
+  padding: 50px;
+  margin-top: 200px;
+  margin-right: 200px;
+  border-radius: 3px;
+
+}
+.about-Section div h2{
+  color: #1e0952;
+  text-decoration: underline;
+}
+.case-study-section
+{
+  background-color: rgb(216, 227, 233);
+
+}
+
+.case-study-section h1
+{
+ color: rgb(7, 13, 94);
+ font-weight: 900;
+ text-decoration: underline; margin-bottom: 20px;
+  
+}
+.case-studies{
+  /* height: 200px;
+  width: 400px; */
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width:70vw;
+  margin: 20px auto;
+  margin-bottom: 30px;
+  background-color:rgb(239, 243, 247);
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.case-studies div{
+  
+  /* background-color: #1e0952; */
+  margin: 3px;
+}
+.read-button{
+  height: 60px;
+  font-size: small;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+#ongoing-cases-section
+{
+  background-color: #e3edf3;
+}
+
+.button-goup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.galary{
+  width:80%;
+  padding: 30px;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  background-color: rgb(235, 235, 227);
+}
+.galary h1{
+  text-align: center;
+  color: #1e0952;
+}
+.button-goup button{
+  background-color: white;
+  padding: 10px 30px;
+  margin: 10px;
+}
+.button-goup button:hover{
+  background-color: blue;
+  color:white;
+  justify-content: center;
+}
+.galary-images{
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+.team-1{
+  
+}
+
+@media only screen and (max-width: 767px) {
+  .form-custom{
+    width: 90%;
+  }
+  .services{
+    padding: 5px;
+    margin-top: 20px;
+  }
+  .container-main{
+
+  }
+}
+
