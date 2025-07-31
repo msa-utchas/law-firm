@@ -13,7 +13,7 @@ body {
   z-index: 4;
 }
 .navbar-custom-property {
-  background-color: #26096b;
+  background-color: #1a365d;
   padding: 5px;
 }
 .link-custom-property ul li a,
@@ -80,8 +80,10 @@ body {
   margin-top: 30px;
 }
 .info-container h4:first-child {
-  color: chocolate;
+  color: #d69e2e;
   font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
 }
 .lawywer-section {
   background-color: azure;
@@ -94,7 +96,7 @@ body {
 }
 .lawywer-section h3 {
   font-weight: 800;
-  color: #1e0952;
+  color: #1a365d;
 }
 .about-us hr {
   display: block;
@@ -105,7 +107,7 @@ body {
   border-top: 4px solid rgb(1, 4, 12);
 }
 .about-us h2 {
-  color: #1e0952;
+  color: #1a365d;
   font-weight: 800;
   margin-bottom: 20px;
 }
@@ -128,11 +130,17 @@ body {
 .service {
   max-width: 400px;
   max-width: 400px;
-  padding: 30px;
+  padding: 35px;
   margin: 50px;
-
+  border-radius: 8px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 15px 35px 0px;
 }
 
 .service img {
@@ -143,12 +151,16 @@ body {
   margin-bottom: 30px;
 }
 .service h3 {
-  color: purple;
-  font-weight: 900;
+  color: #1a365d;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
 }
 .service p {
-  color: rgb(92, 84, 84);
-  font-weight: 700;
+  color: #4a5568;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 0.95rem;
 }
 .write-about-us {
   background-image: url(./resources/pic1.jpg);
@@ -163,15 +175,15 @@ body {
 .form-custom input {
   height: 60px;
   margin: 10px;
-  border: 3px solid rgb(23, 53, 136);
+  border: 3px solid #1a365d;
   font-size: large;
-  color: #26096b;
+  color: #1a365d;
 }
 .form-custom textarea {
   margin: 10px;
-  border: 3px solid rgb(23, 53, 136);
+  border: 3px solid #1a365d;
   font-size: large;
-  color: #26096b;
+  color: #1a365d;
 }
 .form-custom button {
   margin: 10px;
@@ -216,7 +228,7 @@ body {
 
 }
 .about-Section div h2{
-  color: #1e0952;
+  color: #1a365d;
   text-decoration: underline;
 }
 .case-study-section
@@ -227,7 +239,7 @@ body {
 
 .case-study-section h1
 {
- color: rgb(7, 13, 94);
+ color: #1a365d;
  font-weight: 900;
  text-decoration: underline; margin-bottom: 20px;
   
@@ -280,7 +292,7 @@ body {
 }
 .galary h1{
   text-align: center;
-  color: #1e0952;
+  color: #1a365d;
 }
 .button-goup button{
   background-color: white;
@@ -321,7 +333,7 @@ body {
   
   .navbar-collapse.show {
     display: block !important;
-    background-color: #26096b;
+    background-color: #1a365d;
     margin-top: 10px;
     border-radius: 5px;
     padding: 10px;
